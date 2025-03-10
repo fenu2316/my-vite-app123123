@@ -7,7 +7,7 @@ import me from "../assets/img/me.png"
 
 
 
-
+   
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faTwitter } from "@fortawesome/free-brands-svg-icons";
@@ -18,6 +18,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import{ faLinkedin} from "@fortawesome/free-brands-svg-icons";
 export default function Home(){
     return(
+        
         <>
         <div style={{display:"flex"}}>
         <div style={{backgroundColor:"black",width:"65%",height:"700px"}}>
