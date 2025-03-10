@@ -1,8 +1,14 @@
 import React from "react";
 //import './Typewriter.css';
-import TypewriterComponent from "typewriter-effect";
+//import TypewriterComponent from "typewriter-effect";
 import iam from "../assets/img/im.png"
-import me from "../assets/img/me.jpg"
+import me from "../assets/img/me.png"
+
+
+
+
+
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 // import{faInstagram} from"@fortawesome/free-solid-svg-icons";
@@ -27,7 +33,7 @@ export default function Home(){
                         fontSize:"40px",fontWeight:"bolder",marginRight:"200px",
                         letterSpacing:"2px"}}>Feni Soni </span>
 
-                        <TypewriterComponent
+                      {/*<TypewriterComponent
                         options={{strings:["Software Developer","Meren Stack","Web Designer"]
                             ,autoStart:true,
                             loop:true,
@@ -35,6 +41,7 @@ export default function Home(){
                         }}>
 
                         </TypewriterComponent>
+                      */}
                         
                 </div>   
                </div>
